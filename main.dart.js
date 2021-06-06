@@ -34188,7 +34188,7 @@ i=i.gM()
 k=J.C(J.C(J.C(J.C(J.C(J.C(J.C(j.j(l,k),a1),a6),a2),0),a3),"mainTitle"),"title")
 l=$.Z
 if(l==null)l=H.c(H.i(a0))
-return M.be(a,T.kT(H.b([m,M.be(a,L.cI(k,2,C.aZ,A.cu(a,a,a,a,a,a,a,a,a,a,a,12*Math.min(l.gT()/l.gM().a,l.gdH()/l.gM().b),a,a,a,a,!0,a,a,a,a,a,a,a),a,a),C.bq,a,a,30*(h/i.a),a,a,a)],b),C.aa,C.ad,C.a0),a,a,a,150*(s/a4.a),new V.am(p,0,8*(n/o.a),0),a,110*(q/r.a))},
+return M.be(a,T.kT(H.b([m,M.be(a,L.cI(k,2,C.aZ,A.cu(a,a,a,a,a,a,a,a,a,a,a,12*Math.min(l.gT()/l.gM().a,l.gdH()/l.gM().b),a,a,a,a,!0,a,a,a,a,a,a,a),a,a),C.bq,a,a,50*(h/i.a),a,a,a)],b),C.aa,C.ad,C.a0),a,a,a,160*(s/a4.a),new V.am(p,0,8*(n/o.a),0),a,110*(q/r.a))},
 $C:"$2",
 $R:2,
 $S:133}
