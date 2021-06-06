@@ -1,6 +1,6 @@
 {
-    "name": "cloud_music",
-    "short_name": "cloud_music",
+    "name": "web_test",
+    "short_name": "web_test",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
