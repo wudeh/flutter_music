@@ -58,7 +58,7 @@ for(;e9.u();){v=e9.gA(e9)
 if(v!=null){r=A.H(v,x)
 r.toString
 q=J.O(r)
-m.push(new A.vt(A.H(q.h(r,"id"),w),A.H(q.h(r,"v"),w),A.H(q.h(r,"t"),w),A.H(q.h(r,"at"),w),A.H(q.h(r,"alg"),u),A.H(q.h(r,"uid"),w),A.H(q.h(r,"rcmdReason"),s)))}}}e9=y.I
+m.push(new A.vp(A.H(q.h(r,"id"),w),A.H(q.h(r,"v"),w),A.H(q.h(r,"t"),w),A.H(q.h(r,"at"),w),A.H(q.h(r,"alg"),u),A.H(q.h(r,"uid"),w),A.H(q.h(r,"rcmdReason"),s)))}}}e9=y.I
 x=A.H(e8.h(f1,"id"),e9)
 w=y.T
 u=A.H(e8.h(f1,"name"),w)
@@ -412,7 +412,7 @@ _.a=d
 _.b=e
 _.c=f
 _.d=g},
-vt:function vt(d,e,f,g,h,i,j){var _=this
+vp:function vp(d,e,f,g,h,i,j){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -481,13 +481,13 @@ NC:function NC(){},
 acM:function acM(d,e,f){this.a=d
 this.b=e
 this.c=f},
-Bu:function Bu(){},
-nQ:function nQ(){},
+Bs:function Bs(){},
+nP:function nP(){},
 Ny:function Ny(){},
 Fw:function Fw(){},
 Vf:function Vf(){},
-aFn(d){return new B.lZ(1/0,1/0,d,null)},
-v1:function v1(d,e){this.c=d
+aFn(d){return new B.m_(1/0,1/0,d,null)},
+uY:function uY(d,e){this.c=d
 this.a=e},
 aD2(d,e){var x=null,w=d==null&&!0,v=d==null&&!0
 v=v?C.dT:x
@@ -511,7 +511,7 @@ _.dx=r
 _.dy=s
 _.a=t},
 OE:function OE(){},
-Cf:function Cf(d,e,f,g){var _=this
+Ce:function Ce(d,e,f,g){var _=this
 _.c=d
 _.d=e
 _.e=f
@@ -541,8 +541,8 @@ _.dx=_.db=_.cy=!1},
 asw:function asw(d,e,f){this.a=d
 this.b=e
 this.c=f},
-r7:function r7(){},
-r5:function r5(){},
+r3:function r3(){},
+r1:function r1(){},
 W2:function W2(d,e,f){this.c=d
 this.d=e
 this.a=f},
@@ -662,7 +662,7 @@ A.a8b.prototype={
 j(d){return C.m.aY(this,null)},
 aF(){var x=this
 return B.Y(["br",x.a,"fid",x.b,"size",x.c,"vd",x.d],y.N,y.z)}}
-A.vt.prototype={
+A.vp.prototype={
 j(d){return C.m.aY(this,null)},
 aF(){var x=this
 return B.Y(["id",x.a,"v",x.b,"t",x.c,"at",x.d,"alg",x.e,"uid",x.f,"rcmdReason",x.r],y.N,y.z)}}
@@ -679,7 +679,7 @@ j(d){return C.m.aY(this,null)},
 aF(){var x=this
 return B.Y(["rate",x.a,"chargeUrl",x.b,"chargeMessage",x.c,"chargeType",x.d],y.N,y.z)}}
 A.ND.prototype={
-ew(d){if(!(d.e instanceof B.kB))d.e=new B.kB(C.j)},
+ew(d){if(!(d.e instanceof B.kC))d.e=new B.kC(C.j)},
 tL(d,e,f){var x=this.q$
 if(x!=null)return this.Fn(B.a_E(d),x,e,f)
 return!1},
@@ -772,7 +772,7 @@ x.toString
 d.dT(x,e)}},
 fg(d){this.h5(d)
 d.Dn(C.wA)}}
-A.Bu.prototype={
+A.Bs.prototype={
 bK(){var x,w,v,u,t,s,r=this,q=y.S.a(B.t.prototype.gV.call(r)),p=r.jw$
 p.toString
 x=y.A
@@ -791,7 +791,7 @@ r.k4=B.fn(x,!0,null,t,w+0,s,v,p,w,null)},
 hM(d){return 0},
 d4(d,e,f,g){var x,w,v,u=this
 if(e!=null){x=e.dW(0,u)
-w=B.nu(x,g==null?e.ghY():g)}else w=g
+w=B.nt(x,g==null?e.ghY():g)}else w=g
 x=y.S
 switch(B.iL(x.a(B.t.prototype.gV.call(u)).a,x.a(B.t.prototype.gV.call(u)).b)){case C.W:v=A.avW(w,u.gp5(),-1/0,1/0,-1/0)
 break
@@ -805,7 +805,7 @@ default:v=null}u.o7(d,u,f,v)},
 jY(){return this.d4(C.ab,null,C.t,null)},
 j3(d){return this.d4(C.ab,null,C.t,d)},
 j4(d,e,f){return this.d4(d,null,e,f)}}
-A.nQ.prototype={
+A.nP.prototype={
 a8(d){var x=this.dE
 if(x!=null)x.m(0)
 this.dE=null
@@ -875,7 +875,7 @@ this.d5(0)
 x=this.q$
 if(x!=null)x.a8(0)}}
 A.Vf.prototype={}
-A.v1.prototype={
+A.uY.prototype={
 aH(d){var x=new A.NE(null,B.ap())
 x.gat()
 x.gaz()
@@ -885,7 +885,7 @@ return x}}
 A.IN.prototype={
 Pr(d){return this.fx}}
 A.OE.prototype={}
-A.Cf.prototype={
+A.Ce.prototype={
 J(d,e){if(this.e&&!0)return new A.VW(this.c,!0,null)
 return new A.W2(this.c,!1,null)}}
 A.E7.prototype={
@@ -897,7 +897,7 @@ x=w.d
 if(x!=null)x.id.U(0,w.gC_())
 x=w.c
 x.toString
-x=B.jr(x)
+x=B.js(x)
 if(x==null)x=null
 else{x=x.d
 x.toString}w.d=x
@@ -935,11 +935,11 @@ jF(d,e,f){},
 jL(d,e){y.j.a(B.a8.prototype.gG.call(this)).sb8(null)},
 bA(d){var x=this.ap
 if(x!=null)d.$1(x)}}
-A.r7.prototype={
-bY(d){var x=($.bc+1)%16777215
-$.bc=x
-return new A.W0(this.d,x,this,C.U,B.be(y.h))}}
-A.r5.prototype={
+A.r3.prototype={
+bY(d){var x=($.bb+1)%16777215
+$.bb=x
+return new A.W0(this.d,x,this,C.U,B.bd(y.h))}}
+A.r1.prototype={
 gnA(){var x=this.jw$
 x.toString
 return y.A.a(B.a8.prototype.gI.call(x)).c.gnA()},
@@ -970,16 +970,16 @@ A.XX.prototype={}
 var z=a.updateTypes(["~({curve:eD,descendant:t?,duration:aF,rect:E?})","~()"])
 A.acM.prototype={
 $1(d){this.a.Te(this.b,this.c)},
-$S:89}
+$S:101}
 A.asw.prototype={
 $0(){var x=this.a,w=x.ap,v=y.A,u=this.b,t=this.c
 x.ap=x.dK(w,x.N?new A.E7(v.a(B.a8.prototype.gI.call(x)).c.DF(0,x,u,t),null):v.a(B.a8.prototype.gI.call(x)).c.DF(0,x,u,t),null)},
 $S:0};(function aliases(){var x=A.Fw.prototype
 x.YK=x.a8})();(function installTearOffs(){var x=a.installInstanceTearOff,w=a._instance_0u
-x(A.Bu.prototype,"gmy",0,0,null,["$4$curve$descendant$duration$rect","$0","$1$rect","$3$curve$duration$rect"],["d4","jY","j3","j4"],0,0,0)
-x(A.nQ.prototype,"gmy",0,0,null,["$4$curve$descendant$duration$rect","$0","$1$rect","$3$curve$duration$rect"],["d4","jY","j3","j4"],0,0,0)
+x(A.Bs.prototype,"gmy",0,0,null,["$4$curve$descendant$duration$rect","$0","$1$rect","$3$curve$duration$rect"],["d4","jY","j3","j4"],0,0,0)
+x(A.nP.prototype,"gmy",0,0,null,["$4$curve$descendant$duration$rect","$0","$1$rect","$3$curve$duration$rect"],["d4","jY","j3","j4"],0,0,0)
 w(A.E8.prototype,"gC_","a6Y",1)})();(function inheritance(){var x=a.mixinHard,w=a.mixin,v=a.inheritMany,u=a.inherit
-v(B.D,[A.agP,A.abk,A.P0,A.a1l,A.Pw,A.HF,A.Zc,A.a5F,A.a8y,A.a8b,A.vt,A.MF,A.a53,A.Ig,A.OE,A.r5])
+v(B.D,[A.agP,A.abk,A.P0,A.a1l,A.Pw,A.HF,A.Zc,A.a5F,A.a8y,A.a8b,A.vp,A.MF,A.a53,A.Ig,A.OE,A.r1])
 v(B.c2,[A.Vh,A.Fw])
 u(A.Vi,A.Vh)
 u(A.ND,A.Vi)
@@ -987,30 +987,30 @@ u(A.NE,A.ND)
 u(A.Vf,A.Fw)
 u(A.NC,A.Vf)
 u(A.acM,B.bT)
-v(A.NC,[A.Bu,A.nQ])
-u(A.Ny,A.nQ)
-u(A.v1,B.b7)
-u(A.IN,B.BT)
-u(A.Cf,B.aK)
-u(A.E7,B.R)
+v(A.NC,[A.Bs,A.nP])
+u(A.Ny,A.nP)
+u(A.uY,B.b7)
+u(A.IN,B.BR)
+u(A.Ce,B.aK)
+u(A.E7,B.U)
 u(A.E8,B.a1)
 u(A.W0,B.a8)
 u(A.asw,B.fD)
-u(A.r7,B.at)
-v(A.r7,[A.W2,A.VW])
-u(A.XX,A.Bu)
+u(A.r3,B.at)
+v(A.r3,[A.W2,A.VW])
+u(A.XX,A.Bs)
 u(A.Vg,A.XX)
 u(A.XW,A.Ny)
 u(A.Vb,A.XW)
 x(A.Vh,B.aM)
-w(A.Vi,B.Bt)
+w(A.Vi,B.Br)
 x(A.Fw,B.aM)
-w(A.Vf,B.Bt)
-w(A.XW,A.r5)
-w(A.XX,A.r5)})()
-B.dP(b.typeUniverse,JSON.parse('{"ND":{"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"NE":{"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"nQ":{"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"NC":{"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"Bu":{"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"Ny":{"nQ":[],"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"v1":{"b7":[],"at":[],"h":[]},"IN":{"aK":[],"h":[]},"E7":{"R":[],"h":[]},"Cf":{"aK":[],"h":[]},"E8":{"a1":["E7"]},"W0":{"a8":[],"b2":[],"K":[]},"r7":{"at":[],"h":[]},"W2":{"r7":[],"at":[],"h":[]},"Vg":{"r5":[],"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"Vb":{"nQ":[],"r5":[],"c2":[],"aM":["G"],"t":[],"M":[],"an":[]},"VW":{"r7":[],"at":[],"h":[]}}'))
-var y=(function rtii(){var x=B.U
-return{h:x("b2"),y:x("q<HF>"),U:x("q<Ig>"),f:x("q<D>"),m:x("q<MF>"),s:x("q<j>"),a:x("q<P0>"),c:x("q<vt>"),t:x("q<Pw>"),_:x("u<@>"),P:x("av<j,@>"),K:x("D"),x:x("G"),w:x("nQ"),S:x("kz"),v:x("kB"),N:x("j"),j:x("r5"),A:x("r7"),z:x("@"),X:x("D?"),T:x("j?"),u:x("J?"),I:x("o?")}})();(function lazyInitializers(){var x=a.lazy
+w(A.Vf,B.Br)
+w(A.XW,A.r1)
+w(A.XX,A.r1)})()
+B.dP(b.typeUniverse,JSON.parse('{"ND":{"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"NE":{"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"nP":{"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"NC":{"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"Bs":{"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"Ny":{"nP":[],"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"uY":{"b7":[],"at":[],"h":[]},"IN":{"aK":[],"h":[]},"E7":{"U":[],"h":[]},"Ce":{"aK":[],"h":[]},"E8":{"a1":["E7"]},"W0":{"a8":[],"b2":[],"M":[]},"r3":{"at":[],"h":[]},"W2":{"r3":[],"at":[],"h":[]},"Vg":{"r1":[],"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"Vb":{"nP":[],"r1":[],"c2":[],"aM":["G"],"t":[],"L":[],"an":[]},"VW":{"r3":[],"at":[],"h":[]}}'))
+var y=(function rtii(){var x=B.T
+return{h:x("b2"),y:x("q<HF>"),U:x("q<Ig>"),f:x("q<D>"),m:x("q<MF>"),s:x("q<j>"),a:x("q<P0>"),c:x("q<vp>"),t:x("q<Pw>"),_:x("u<@>"),P:x("av<j,@>"),K:x("D"),x:x("G"),w:x("nP"),S:x("kA"),v:x("kC"),N:x("j"),j:x("r1"),A:x("r3"),z:x("@"),X:x("D?"),T:x("j?"),u:x("J?"),I:x("o?")}})();(function lazyInitializers(){var x=a.lazy
 x($,"aXC","aBw",()=>"https://netease-cloud-music-api-jet.vercel.app/playlist/detail?id=")
 x($,"aXB","aBv",()=>"https://netease-cloud-music-api-jet.vercel.app/song/detail?id=")})()}
-$__dart_deferred_initializers__["JoNjvMdAUgNOdEx/LkYvHpFFxrs="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["+DFm5BuAvdyZe9eiLQ4iwGd1Cco="] = $__dart_deferred_initializers__.current
